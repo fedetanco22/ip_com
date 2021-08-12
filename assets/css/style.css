@@ -90,14 +90,12 @@ section {
 .section-bg {
 	background-color: #fff5f5;
 }
-.section-title {
-	padding-bottom: 40px;
-}
 
 .section-title h2 {
 	font-size: 14px;
 	font-weight: 500;
 	padding: 0;
+	padding-bottom: 40px;
 	line-height: 1px;
 	margin: 0 0 5px 0;
 	letter-spacing: 2px;
@@ -127,30 +125,7 @@ section {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-/* section {
-	padding: 60px 0;
-}
 
-.section-bg {
-	background-color: #fff5f5;
-}
-
-.section-title {
-	text-align: center;
-	padding-bottom: 15px;
-}
-
-.section-title h2 {
-	font-size: 32px;
-	font-weight: bold;
-	margin-bottom: 20px;
-	position: relative;
-}
-
-.section-title p {
-	margin-bottom: 0;
-}
- */
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -213,6 +188,15 @@ section {
 	}
 }
 
+.btn-ahorro {
+	margin-top: 20px;
+	width: fit-content;
+	height: 45px;
+	background-color: transparent;
+	border: 2px #fff solid;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
 /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
@@ -483,7 +467,7 @@ section {
 .sap .icon-box h4 {
 	font-weight: 700;
 	margin-bottom: 15px;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .services .icon-box h4 a,
@@ -552,6 +536,11 @@ section {
 
 .about .content p:last-child {
 	margin-bottom: 0;
+}
+
+.certifications img {
+	width: 100%;
+	object-fit: cover;
 }
 
 /*--------------------------------------------------------------
