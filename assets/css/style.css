@@ -293,7 +293,7 @@ section {
 	bottom: 15px;
 	left: 15px;
 	padding: 10px 0;
-	background-color: #fff;
+	/* background-color: #fff; */
 	overflow-y: auto;
 	transition: 0.3s;
 }
@@ -307,7 +307,7 @@ section {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-	color: #ffc451;
+	color: #000;
 	background-color: #ffc451;
 }
 
