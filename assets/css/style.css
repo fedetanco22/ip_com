@@ -4,7 +4,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
-	background: url('../img/bg.jpg') top center no-repeat;
+	background: url('../img/bg-2.jpg') top center no-repeat;
 	background-size: cover;
 	position: relative;
 }
@@ -304,9 +304,8 @@ section {
 	color: #ffc451;
 }
 
-.navbar-mobile a:hover,
-.navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile ul li:focus,
+.navbar-mobile ul li:active {
 	color: #000;
 	background-color: #ffc451;
 }
@@ -703,7 +702,7 @@ section {
 	padding: 10px 12px;
 }
 
-.contact .php-email-form button[type='submit'] {
+.contact .php-email-form input[type='submit'] {
 	background: #ffc451;
 	border: 0;
 	padding: 10px 24px;
@@ -711,7 +710,7 @@ section {
 	transition: 0.4s;
 }
 
-.contact .php-email-form button[type='submit']:hover {
+.contact .php-email-form input[type='submit']:hover {
 	background: #ffc451;
 }
 
